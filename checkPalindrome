@@ -1,0 +1,15 @@
+# it's just a silly script to check the given string is palindrome or not
+# first it checks the word from left, after from opposite side
+# and decides is it the same or not
+
+def checkPalindrome(inputString):
+
+    check_lf = inputString[0:]
+    check_op = inputString[::-1]
+    
+    if check_lf == check_op:
+        output = True
+    else:
+        output = False
+                     
+    return output
