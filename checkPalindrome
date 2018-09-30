@@ -1,4 +1,4 @@
-# it's just a silly script to check the given string is palindrome or not
+# it's just a silly script to check the given string is Palindrome or not
 # first it checks the word from left, after from opposite side
 # and decides is it the same or not
 
