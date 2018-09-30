@@ -1,0 +1,9 @@
+def centuryFromYear(year):
+    
+    century = year//100+1
+    
+    if year%100 == 0:
+        
+        century = century-1
+    
+    return century
