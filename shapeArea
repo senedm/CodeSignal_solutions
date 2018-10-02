@@ -1,0 +1,6 @@
+def shapeArea(n):
+    
+    area = n**2+(n-1)**2
+    
+    return area
+
