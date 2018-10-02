@@ -1,3 +1,5 @@
+#area of an n-interesting polygon
+
 def shapeArea(n):
     
     area = n**2+(n-1)**2
