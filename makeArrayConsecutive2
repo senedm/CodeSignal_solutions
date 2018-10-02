@@ -1,0 +1,17 @@
+def makeArrayConsecutive2(statues):
+    
+    sorted_list = sorted(statues)
+    
+    print(sorted_list)
+    
+    mini = min(sorted_list)
+    
+    maxi = max(sorted_list)
+    
+    len_ori = len(sorted_list)
+    
+    size_of_stat = maxi-mini+1
+    
+    diff = size_of_stat - len_ori
+    
+    return diff
