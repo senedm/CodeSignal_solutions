@@ -4,12 +4,13 @@
 
 def checkPalindrome(inputString):
 
-    check_lf = inputString[0:]
-    check_op = inputString[::-1]
-    
+    half_len = int(len(inputString))
+    check_lf = inputString[0:half_len]
+    check_op = inputString[half_len::-1]
+
     if check_lf == check_op:
         output = True
     else:
         output = False
-                     
+
     return output
